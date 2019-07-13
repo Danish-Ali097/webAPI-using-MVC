@@ -1,0 +1,270 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home | Welcome, to Travelex&reg;</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="Scripts/angular.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="bootstrap/Style.css?v=1.1" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Travelex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Packages.html">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+            </ul>
+            <nav class="navbar navbar-light navbar-right custom-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Signup.html">Signup <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!--carousel-starts here-->
+            <div id="carouselExampleIndicators" class="carousel slide custom-slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/4k-wallpaper-beach-clouds-1450360.jpg" class="d-block w-100" alt="image_1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Enjoy your summers luxuriosly</h1>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/beach-beautiful-bridge-449627.jpg" class="d-block w-100" alt="image_2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Spend your vacassions in peacefull environment</h1>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/clouds-conifer-daylight-371589.jpg" class="d-block w-100" alt="image_3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Explore nature with us</h1>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--carousel-end-here-->
+        </div>
+        <div class="row">
+            <!--bookig-navbar-starts-->
+            <div class="container" style="padding:1% !important;">
+                <nav class="navbar" style="background-color:#dfdede;">
+                    <h2 class="navbar-brand">Book now:</h2>
+                    <form style="margin-bottom:10px;">
+                        <div class="form-row">
+                            <div class="col-2">
+                                <label class="navbar-brand" for="From">From: </label>
+                                <input type="text" class="form-control" id="From" placeholder="Where from">
+                            </div>
+                            <div class="col-2">
+                                <label class="navbar-brand" for="To">where To: </label>
+                                <input type="text" class="form-control" id="To" placeholder="Want to go">
+                            </div>
+                            <div class="col-2">
+                                <label class="navbar-brand" for="adult">Adults: </label>
+                                <input type="number" class="form-control" id="adult" placeholder="1,2,3,..etc">
+                            </div>
+                            <div class="col-2">
+                                <label class="navbar-brand" for="children">Children: </label>
+                                <input type="number" class="form-control" id="children" placeholder="1,2,3,..etc">
+                            </div>
+                            <div class="col-2">
+                                <label class="navbar-brand" for="nDays">No of days: </label>
+                                <input type="number" class="form-control" id="nDays" placeholder="1,2,3,..etc">
+                            </div>
+                            <div class="col" style="margin-bottom:0 !important;padding-top: 30px !important;">
+                                <button type="submit" class="btn btn-outline-secondary">Go!</button>
+                            </div>
+                        </div>
+                    </form>
+                </nav>
+            </div>
+            <!--bookig-navbar-ends-->
+        </div>
+        <div class="row">
+            <div class="col-12 well">
+                <h2>Services</h2>
+            </div>
+            <!--cards-starts-->
+                <div class="col-4">
+                    <div class="card bg-dark text-white custom-card">
+                        <img src="images/bread-color-copyspace-1565982.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Food</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="Services.html" class="btn btn-outline-light">Read more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card bg-dark text-white custom-card">
+                        <img src="images/architecture-city-commute-1769337.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Transport</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="Services.html" class="btn btn-outline-light">Read more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card bg-dark text-white custom-card">
+                        <img src="images/apartment-architecture-bed-271668.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Room</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="Services.html" class="btn btn-outline-light">Read more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            <!--cards-ends-->
+        </div>
+        <div class="row">
+            <div class="col-12 well">
+                <h2>Latest Packages</h2>
+            </div>
+            <!--package-cards-start-->
+           <div class="col-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/architecture-blue-building-1707310.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Dubai</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/architecture-art-blue-699466.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Paris</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/america-ancient-architecture-634044.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">USA</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6" style="margin-top: 200px;">
+                <a  href="Packages.html" class="btn btn-outline-secondary">See more &rarr;</a>
+            </div>
+            <!--package-cards-ends-->
+        </div>
+        <div class="row">
+            <div class="col-12 well">
+                <h2>Clients reviews</h2>
+            </div>
+            <!--client-reviw-starts-->
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/adult-boy-casual-220453.jpg" class="card-img-top rounded-circle" style="height:200px;width:200px; margin: 5px auto" alt="...">
+                    <hr />
+                    <div class="card-body">
+                        <h5 class="card-title">Clark</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/adult-boy-casual-220453.jpg" class="card-img-top rounded-circle" style="height:200px;width:200px; margin: 5px auto" alt="...">
+                    <hr />
+                    <div class="card-body">
+                        <h5 class="card-title">Clark</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/adult-boy-casual-220453.jpg" class="card-img-top rounded-circle" style="height:200px;width:200px; margin: 5px auto" alt="...">
+                    <hr />
+                    <div class="card-body">
+                        <h5 class="card-title">Clark</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <!--client-reviw-ends-->
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="card-footer custom-footer">Copyright by &copy; Danish Ali,2019</div>
+    </footer>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+</body>
+</html>
